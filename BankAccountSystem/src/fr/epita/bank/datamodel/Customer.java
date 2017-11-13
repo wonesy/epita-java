@@ -38,11 +38,11 @@ public class Customer {
 	}
 
 	public void addNewSavingsAccount(double interestRate) {
-		this.savingsAccounts.add(new SavingsAccount(0, interestRate));
+		this.savingsAccounts.add(new SavingsAccount(0d, interestRate));
 	}
 	
-	public void addNewInvestmentAccount(double balance) {
-		this.investmentAccounts.add(new InvestmentAccount(balance));
+	public void addNewInvestmentAccount() {
+		this.investmentAccounts.add(new InvestmentAccount(0d));
 	}
 	
 	@Override

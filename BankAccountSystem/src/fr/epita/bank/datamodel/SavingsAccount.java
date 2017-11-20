@@ -22,7 +22,5 @@ public class SavingsAccount extends Account {
 		return "SavingsAccount [interestRate=" + interestRate + ", balance=" + balance + ", getInterestRate()="
 				+ getInterestRate() + ", getBalance()=" + getBalance() + ", toString()=" + super.toString()
 				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
-	}
-
-	
+	}	
 }

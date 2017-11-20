@@ -37,8 +37,8 @@ public class Customer {
 		}
 	}
 
-	public void addNewSavingsAccount(double interestRate) {
-		this.savingsAccounts.add(new SavingsAccount(0d, interestRate));
+	public void addNewSavingsAccount(double balance, double interestRate) {
+		this.savingsAccounts.add(new SavingsAccount(balance, interestRate));
 	}
 	
 	public void addNewInvestmentAccount() {
@@ -47,9 +47,9 @@ public class Customer {
 	
 	@Override
 	public String toString() {
-		return "Customer [name=" + name + ", address=" + address + ", savingsAccounts=" + savingsAccounts
-				+ ", investmentAccounts=" + investmentAccounts + ", getName()=" + getName() + ", getAddress()="
-				+ getAddress() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+		return "Customer\n\t[name=" + name + "\n\taddress=" + address + "\n\tsavingsAccounts=" + savingsAccounts
+				+ "\n\tinvestmentAccounts=" + investmentAccounts + "\n\tgetName()=" + getName() + "\n\tgetAddress()="
+				+ getAddress() + "\n\tgetClass()=" + getClass() + "\n\thashCode()=" + hashCode() + "\n\ttoString()="
 				+ super.toString() + "]";
 	}
 }

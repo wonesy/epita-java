@@ -10,7 +10,4 @@ public class InvestmentAccount extends Account {
 		return "InvestmentAccount [balance=" + balance + ", getBalance()=" + getBalance() + ", toString()="
 				+ super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 	}
-	
-	
-
 }
